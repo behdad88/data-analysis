@@ -102,3 +102,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/.idea/dataSources.xml
+.idea/data-analysis.iml
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+data_analysis/save_tweets.py
+data_analysis/see.py
+data_analysis/tweets.json
+data_analysis/twitter.sqlite3

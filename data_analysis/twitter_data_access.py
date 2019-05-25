@@ -36,8 +36,8 @@ class PrintListener(StreamListener):
 def print_to_terminal():
     listener = PrintListener()
     stream = Stream(auth, listener)
-    # languages = ('en',)
-    # stream.sample(languages=languages)
+    languages = ('en',)
+    stream.sample(languages=languages)
     stream.sample()
 
 
@@ -49,5 +49,5 @@ def pull_down_tweets(screen_name):
 
 
 if __name__ == '__main__':
-    # print_to_terminal()
-    pull_down_tweets(auth.username)
+    print_to_terminal()
+    # pull_down_tweets(auth.username)
