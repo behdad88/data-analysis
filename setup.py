@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
         name='data_analysis',
         version='0.0.1',
-        url='www.github.com/benhoff/data-analysis',
+        url='www.github.com/benhoff/data_analysis',
         license='MIT',
         author='Behdad Karimi',
         packages=find_packages(),
